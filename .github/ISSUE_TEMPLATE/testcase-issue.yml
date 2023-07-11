@@ -1,0 +1,45 @@
+name: "Testcase issue"
+description: "Use this template to report issues with a testcase"
+title: "[Test]: "
+labels: "testcase"
+body:
+  - type: dropdown
+    id: project
+    validations:
+      required: true
+    attributes:
+      label: Which Project (PA)?
+      multiple: false
+      options:
+        - PA1 - Scanner
+        - PA2 - Interpreter
+        - PA3 - Compiler
+        - PA4 - AST & Symbol Table
+        - PA5 - Type Checking
+        - PA6 - SSA
+        - PA7 - Optimizations
+        - PA89 - Register Allocation + Code Gen
+  - type: input
+    id: testcase
+    attributes:
+      label: Test Case
+      description: Which testcase? ex. 000
+      placeholder: "@"
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Author
+      description: Who is the author of the testcase? - best to include their github username
+      placeholder: "@"
+    validations:
+      required: true
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen? This will be automatically formatted into code
+      render: shell
+    validations:
+      required: true

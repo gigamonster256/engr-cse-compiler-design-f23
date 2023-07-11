@@ -2,9 +2,9 @@
 
 **Naming convention:**
 
-* code file: `./projectX/testYYY.txt` : test numbering starts from 0 and must be consecutive
-* input file: `./projectX/testYYY.in` : input for testYYY.txt
-* output file: `./projectX/testYYY.out` optional, the expected stdout, make sure this is not hand-generated
+* code file: `./PAX/testYYY.txt` : test numbering starts from 0 and must be consecutive
+* input file: `./PAX/testYYY.in` : input for testYYY.txt
+* output file: `./PAX/testYYY.out` optional, the expected stdout, make sure this is not hand-generated
 
 All student test cases must have the header: 
 * first line: name of the author `// <author>`
