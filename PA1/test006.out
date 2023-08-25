@@ -1,0 +1,19 @@
+IDENT	int_47
+IDENT	palintous
+IDENT	gaulint
+IDENT	void_star
+IDENT	palvoidous
+IDENT	gaulvoid
+IDENT	iffy
+IDENT	palifous
+IDENT	gaulif
+IDENT	elsest
+IDENT	palelous
+IDENT	gauelse
+IDENT	whileist
+IDENT	palwhileous
+IDENT	gaulwhile
+IDENT	returnist
+IDENT	palreturnous
+IDENT	gaulreturn
+EOF
