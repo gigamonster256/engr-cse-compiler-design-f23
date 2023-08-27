@@ -1,0 +1,6 @@
+MAIN
+INT
+IDENT	positiveINT
+ASSIGN
+ERROR(+5;)
+EOF
