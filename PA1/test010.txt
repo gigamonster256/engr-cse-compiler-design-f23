@@ -4,4 +4,4 @@
 intfloat
 ifthen
 elseelse
-mainmainmain
+voidmain
