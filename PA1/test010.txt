@@ -1,5 +1,5 @@
 //Himani Deshpande 730007406
-//Testing identifiers made up of keywords
+//Testing identifiers made up of only keywords
 
 intfloat
 ifthen
