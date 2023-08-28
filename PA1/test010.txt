@@ -1,5 +1,5 @@
 //Himani Deshpande 730007406
-//Testing identifiers made up of only keywords, should read them all as identifiers not separate keyword tokens
+//Testing keywords without whitespaces, should read them all as identifiers not separate keyword tokens
 
 intfloat
 ifthen
