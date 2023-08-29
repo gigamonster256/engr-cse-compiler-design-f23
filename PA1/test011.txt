@@ -5,8 +5,8 @@ var username: string;
 var age: int = 25;
 
 if age < 18 {
-    var message: string = "You are underage.";
+var message: string = "You are underage.";
 } else {
-    var message: string = "You are an adult.";
+var message: string = "You are an adult.";
 }.
 
