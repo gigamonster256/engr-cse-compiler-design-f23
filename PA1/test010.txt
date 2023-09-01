@@ -1,7 +1,7 @@
-//Himani Deshpande 730007406
-//Testing keywords without whitespaces, should read them all as identifiers not separate keyword tokens
 
-intfloat
-ifthen
-elseelse
-voidmain
+
+    //Himani Deshpande 730007406
+//Testing a file starting with endlines and whitespaces
+
+int
+float
