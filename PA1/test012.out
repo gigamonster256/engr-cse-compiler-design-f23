@@ -1,0 +1,52 @@
+
+C:\Users\Reynolds-Framework\Documents\2023FallClassMaterial\CSCE 434 Compiler Design\Project\Assignment1-Scanner>java --class-path ../engr-cse-compiler-design-f23/lib/commons-cli-1.5.0.jar;. coco/ScannerTester -s "../engr-cse-compiler-design-f23/PA1/mytest.txt" 
+VOID
+BOOL
+INT
+FLOAT
+TRUE
+FALSE
+AND
+OR
+IF
+NOT
+THEN
+ELSE
+FI
+WHILE
+DO
+OD
+REPEAT
+UNTIL
+CALL
+RETURN
+MAIN
+FUNC
+IDENT	vo
+IDENT	id
+IDENT	bo
+IDENT	ol
+IDENT	flo
+IDENT	at
+IDENT	have_a_really_great_day
+NOT_EQUAL
+IDENT	today0909
+ASSIGN
+IDENT	y3st3rd4y
+SEMICOLON
+INT_VAL	0
+IDENT	xB33F
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+ERROR
+EOF
