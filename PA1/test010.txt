@@ -1,5 +1,5 @@
 //Himani Deshpande 730007406
-//Testing keywords with and without whitespaces, should read them all as identifiers not separate keyword tokens
+//Testing valid keywords with and without whitespaces, should read the ones without spaces as identifiers not separate keyword tokens
 
 intfloat
 int float
