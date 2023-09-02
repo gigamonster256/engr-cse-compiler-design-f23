@@ -1,4 +1,4 @@
-// handling of block comment test: 605 only - 434 not required to pass 
+// handling of block comment test 
 
 /* abcd */ // this is fine
 
