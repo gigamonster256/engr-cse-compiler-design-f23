@@ -1,4 +1,4 @@
-﻿// Anthony Pierson
+// Anthony Pierson
 // with this test case I tried to cover most of the possibilities of the language
 
 
