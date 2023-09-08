@@ -1,0 +1,10 @@
+IDENT   Main
+IDENT   Else
+IDENT   iF
+IDENT   cAll
+IDENT   Sam
+MOD
+IDENT   Charlott3
+ADD
+ERROR
+EOF
