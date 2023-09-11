@@ -6,7 +6,9 @@
 
 main
 
-int arr0, arr1[2], arr2[3][4];
+int arr0;
+int[2] arr1;
+int[2][2] arr2;
 
 {
   arr0 = 12;
