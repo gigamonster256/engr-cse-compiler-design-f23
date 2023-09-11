@@ -1,0 +1,20 @@
+/*
+ * Array Creation Test Case
+ * Gaultier Delbarre 830006271
+ * Test that arrays are validated properly and created correctly.
+ */
+
+main
+
+int arr0, arr1[2], arr2[3][4];
+
+{
+  arr0 = 12;
+
+  arr1[0] = -1;
+  arr2[1] = 2;
+
+  printInt( arr0 );
+  printInt( arr1[0] );
+  printInt( arr2[1] );
+}
