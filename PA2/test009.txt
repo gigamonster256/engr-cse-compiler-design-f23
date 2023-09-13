@@ -15,11 +15,11 @@ bool A, B, C, expr1, expr2, expr3, result;
     C = call readBool();
 
     // define 3-SAT expressions
-    expr1 = (A OR B OR NOT C);
-    expr2 = (NOT A OR NOT B OR C);
-    expr3 = (A OR NOT B OR NOT C);
+    expr1 = (A or B or not C);
+    expr2 = (not A or not B or C);
+    expr3 = (A or not B or not C);
     
     // evaluate 3-SAT
-    result = expr1 AND expr2 AND expr3;
+    result = expr1 and expr2 and expr3;
     call printBool(result);
-}
+}.
