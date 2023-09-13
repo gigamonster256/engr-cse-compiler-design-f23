@@ -23,8 +23,8 @@ int y;
 			x = 5;
 		else
 			// there should be a statSeq here
-		fi
-	fi // x==1
+		fi;
+	fi; // x==1
 
 	call printInt(x); // should not get here (parser should error)
 }.
