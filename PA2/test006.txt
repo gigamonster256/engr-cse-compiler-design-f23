@@ -4,7 +4,8 @@
 
 main
 
-int x, yyyaya, example, boolean_example;
+int x, yyyaya, example;
+bool boolean_example;
 
 {
     x++;
