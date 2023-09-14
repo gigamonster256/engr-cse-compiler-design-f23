@@ -48,7 +48,7 @@ public class InterpreterTester {
         Interpreter p = new Interpreter(s, in);
         p.interpret();
         if (p.hasError()) {
-            System.out.println("Error parsing file");
+            System.out.println("Error parsing file.");
             System.out.println(p.errorReport());
             System.exit(-4);
         }
