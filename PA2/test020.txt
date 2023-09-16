@@ -3,9 +3,9 @@
 main
 int a, b, c;
 {
-   a = call readInt();
-   b = call readInt();
-   c = call readInt();
+   a = 4;
+   b = 3;
+   c = 4;
    call printInt(a-- + b++ + b * ++c);
    call printInt(a);
    call printInt(b);
