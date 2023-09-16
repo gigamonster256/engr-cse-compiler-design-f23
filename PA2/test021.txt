@@ -17,4 +17,4 @@ int outsideNum;
             outsideNum += 2;
         until (outsideNum > 10)
     od
-}
+}.
