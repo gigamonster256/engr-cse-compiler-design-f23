@@ -30,7 +30,8 @@ bool i, j, k;
     call printBool(i and j or k);
 
     // mixed
-    call printBool(x + y + z < x - y - z or i and not(j or k));
+    // fixed error with precedence for mixed type operations
+    call printBool((x + y + z < x - y - z) or i and not(j or k));
 
     // func call
     call printInt(x + call readInt() + z);
@@ -38,7 +39,3 @@ bool i, j, k;
     // return
     return (x + y + z);
 }.
-
-// There was a QuitParseException thrown @ line 33 because the expression is badly-formed 
-// x + y + z < x - y - z or instead of (x + y + z < x - y - z) or ...
-// (at least that's what the solution is seeing)
