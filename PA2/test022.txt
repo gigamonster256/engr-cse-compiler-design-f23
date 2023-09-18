@@ -1,0 +1,19 @@
+// Charlotte Harrington
+// 330004230
+// This tests variable assignment inside if statements and dead code
+
+main
+int a, b;
+{
+   a = 4;
+   b = 3;
+
+   if (a < b) then
+      a += 2;
+   else
+      call printInt(a - b);  
+   fi;
+   
+   call printInt(a);
+   call printInt(b);
+}
