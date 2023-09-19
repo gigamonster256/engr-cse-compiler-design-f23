@@ -3,7 +3,6 @@ package coco;
 import java.io.*;
 import java.util.*;
 
-
 // You need to put jar files in lib/ in your classpath
 import org.apache.commons.cli.*;
 

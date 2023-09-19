@@ -1,11 +1,8 @@
 package coco;
 
 import java.io.*;
-import java.util.Scanner;
-
 import org.apache.commons.cli.*;
 
-import types.TypeChecker;
 
 public class CompilerTester {
 

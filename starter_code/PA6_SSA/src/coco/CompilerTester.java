@@ -3,8 +3,6 @@ package coco;
 import java.io.*;
 import java.util.*;
 
-
-
 import org.apache.commons.cli.*;
 
 public class CompilerTester {
