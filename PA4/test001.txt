@@ -2,18 +2,12 @@
 main
 
 int x;
-float fX;
 bool bX;
 
 {
     x = call readInt();
 
     call printInt(x);
-    call println();
-
-    fX = call readFloat();
-
-    call printFloat(fX);
     call println();
 
     bX = call readBool();
