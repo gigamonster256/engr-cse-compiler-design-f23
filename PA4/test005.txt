@@ -1,6 +1,6 @@
 main
 int x,y,z;
-float x;
+bool x;
 {
 	x = 2;
 	y = 2;
