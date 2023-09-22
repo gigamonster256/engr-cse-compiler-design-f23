@@ -1,0 +1,22 @@
+// 130006243
+// Samuel Torres
+
+int x, y, z;
+
+main {
+
+  //redeclaration for same type
+  x = 5;
+  int x = 4;
+
+  //Messing with possibly corrupted variable
+  y = 6;
+  y = x;
+
+  //Redeclatation for different type
+  bool x;
+
+  //redeclaration for different type (using functions)
+  z = call readBool();
+
+}.
