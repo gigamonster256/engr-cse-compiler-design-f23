@@ -1,0 +1,13 @@
+Computation[main:()->void]
+  DeclarationList
+    FunctionDeclaration[printInt:(int)->int]
+      FunctionBody
+        StatementSequence
+          ReturnStatement
+            Addition
+              x:int
+              IntegerLiteral[1]
+  StatementSequence
+    FunctionCall[printInt:(int)->int]
+      ArgumentList
+        IntegerLiteral[2]
