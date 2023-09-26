@@ -1,5 +1,5 @@
 main
 int x,y,z;
 {
-   a = 2;
+    a = 2;
 }.
