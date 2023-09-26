@@ -1,18 +1,18 @@
 Computation[main:()->void]
   DeclarationList
-    FunctionDeclaration[j(int)->int]
+    FunctionDeclaration[j:(int)->int]
       FunctionBody
         StatementSequence
           ReturnStatement
             i:int
-    FunctionDeclaration[j(int,int)->int]
+    FunctionDeclaration[j:(int,int)->int]
       FunctionBody
         StatementSequence
           ReturnStatement
             Addition
               i:int
               j:int
-    FunctionDeclaration[j(bool)->int]
+    FunctionDeclaration[j:(bool)->int]
       FunctionBody
         StatementSequence
           ReturnStatement
