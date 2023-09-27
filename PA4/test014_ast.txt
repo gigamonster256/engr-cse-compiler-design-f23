@@ -1,0 +1,19 @@
+Computation[main:()->void]
+  DeclarationList
+    VariableDeclaration[a:int]
+    VariableDeclaration[b:int]
+  StatementSequence
+    Assignment
+      b:int
+      IntegerLiteral[10]
+    RepeatStatement
+      StatementSequence
+        Assignment
+          a:int
+          Addition
+            a:int
+            IntegerLiteral[1]
+      Until
+        Relation[>]
+          a:int
+          b:int
