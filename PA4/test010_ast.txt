@@ -1,3 +1,0 @@
-Error parsing file.
-DeclareSymbolError(7,10)[printInt already exists.]
-SyntaxError(14,2)[Expected PERIOD but got SEMICOLON.]
