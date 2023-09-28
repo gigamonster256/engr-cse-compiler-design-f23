@@ -1,0 +1,35 @@
+// Charlotte Harrington
+// 330004230
+// tests scoping for symbol table
+main
+
+int a, b;
+
+function cool() : void
+{
+    int x;
+
+    x = 1;
+    a++;
+
+    call printInt(x);
+
+    call println();
+};
+
+{
+    a = 1;
+    b = 2;
+
+    call printInt(a);
+    call printInt(b);
+    call println();
+
+    call cool();
+
+    call printInt(a);
+
+    call printInt(x);
+
+    return;
+}.
