@@ -1,0 +1,39 @@
+// Josh Stafford 330003056
+// Testing all of the different assignments
+
+main
+
+int x, y, z;
+int[2] a, b;
+
+{
+    // Initialize values
+    x = 4;
+    y = 7;
+    z = 12;
+    a[0] = 1;
+    a[1] = 2;
+    b[0] = 3;
+    b[1] = 4;
+
+    // Test arithmetic assignments
+    x += 8;
+    y -= z;
+    z *= x + 5;
+    x /= 2;
+    z %= (x + y) * 4;
+    y ^= x + y - z * b[0];
+    a[0] += 4;
+    a[1] -= x + 5;
+    b[0] *= 7 * x;
+    b[1] /= 4;
+    a[0] %= (b[0] + y) * a[0];
+    a[1] ^= 5 + x - b[1];
+
+
+    // Test unary operators
+    x++;
+    y--;
+    a[1]++;
+    b[0]--;
+}.
