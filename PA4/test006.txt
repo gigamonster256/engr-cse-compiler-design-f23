@@ -1,22 +1,15 @@
 // 130006243
 // Samuel Torres
 main
-int x, y, z;
+int a,b,c;
 
 {
+    a = 1;
+    b = 2;
+    c = 3;
 
-  //redeclaration for same type
-  x = 5;
-  int x = 4;
-
-  //Messing with possibly corrupted variable
-  y = 6;
-  y = x;
-
-  //Redeclatation for different type
-  bool x;
-
-  //redeclaration for different type (using functions)
-  z = call readBool();
-
+    //Tests Pemdas and Outputs for Operands
+    a = 1 * (2 + 3) ^ 2;
+    b = (3 + 4 - 1) / 2;
+    b = 10 % (2 + 3);
 }.
