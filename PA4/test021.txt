@@ -1,0 +1,29 @@
+// Ahmet Coskuner 126009366
+// Function with var declaration inside
+main
+
+int x, y;
+bool z;
+
+function max (int a, int b) : int {
+    int ret;
+    if (a >= b) then
+        call printInt(a);
+        ret = a;
+    else
+        if (a < b) then
+            call printInt(b);
+            ret = b;
+        fi;
+    fi;
+    return ret;
+};
+
+{
+    x = 5;
+    y = 10;
+    z = call max(x, y) == 5;
+    if (not z) then
+        printBool(z);
+    fi;
+}.
