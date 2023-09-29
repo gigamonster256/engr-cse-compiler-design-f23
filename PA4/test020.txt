@@ -1,0 +1,23 @@
+// Timothy Reynolds
+// 824004266
+// Normal testcase, if this fails something is horribly wrong
+
+main
+
+function factorial(int i) : int {
+	if (i < 2) then
+		return 1;
+	fi;
+	return i * factorial(i-1);
+};
+
+{
+
+	printInt(factorial(2));
+	printInt(factorial(factorial(2)));
+	printInt(factorial(47));
+	println();
+	printInt(factorial(-27));
+	printInt(factorial(0) * 0);
+	printInt(factorial(factorial(6)));
+}.
