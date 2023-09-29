@@ -15,12 +15,12 @@ z = a + b % c; //5
 
 a = x - z; //7
 
-call prinInt(a);
-call prinInt(b);
-call prinInt(c);
-call prinInt(x);
-call prinInt(y);
-call prinInt(z);
+call printInt(a);
+call printInt(b);
+call printInt(c);
+call printInt(x);
+call printInt(y);
+call printInt(z);
 
 return;
 }.
