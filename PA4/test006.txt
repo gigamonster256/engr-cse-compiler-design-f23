@@ -1,9 +1,9 @@
 // 130006243
 // Samuel Torres
-
+main
 int x, y, z;
 
-main {
+{
 
   //redeclaration for same type
   x = 5;
