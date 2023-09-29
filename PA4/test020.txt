@@ -8,16 +8,16 @@ function factorial(int i) : int {
 	if (i < 2) then
 		return 1;
 	fi;
-	return i * factorial(i-1);
+	return i * call factorial(i-1);
 };
 
 {
 
-	printInt(factorial(2));
-	printInt(factorial(factorial(2)));
-	printInt(factorial(47));
-	println();
-	printInt(factorial(-27));
-	printInt(factorial(0) * 0);
-	printInt(factorial(factorial(6)));
+	call printInt(call factorial(2));
+	call printInt(call factorial(call factorial(2)));
+	call printInt(call factorial(47));
+	call println();
+	call printInt(call factorial(-27));
+	call printInt(call factorial(0) * 0);
+	call printInt(call factorial(call factorial(6)));
 }.

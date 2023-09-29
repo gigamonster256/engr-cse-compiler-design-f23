@@ -8,5 +8,5 @@ int x;
 
 {
 	x = 0;
-	printInt(x++);
+	call printInt(x++);
 }

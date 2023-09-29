@@ -17,5 +17,5 @@ function max (int a, int b) : int {
 {
 	x = 5;
 	y = 3;
-	printInt(max(x, y));
+	call printInt(call max(x, y));
 }.
