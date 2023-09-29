@@ -1,0 +1,30 @@
+// Jaiden Kimmelman 328000077
+// Testing function declaration, unary op, add assign, multiple returns in a function //declaration
+
+main
+
+int x;
+bool a;
+
+function aFunction(int i) : bool
+{
+	if (i > 20) then
+		return false;
+	fi;
+	return true;
+};
+
+
+
+{
+	x = 0;
+	while (i <= 40) do
+		a = aFunction(x);
+		if (a) then
+			x++;
+		else 
+			x += 5;
+		fi;
+	od;
+}.
+		
