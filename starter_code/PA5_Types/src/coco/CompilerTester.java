@@ -71,7 +71,7 @@ public class CompilerTester {
         
         Compiler c = new Compiler(s, numRegs);
         ast.AST ast = c.genAST();
-        types.TypeChecker tc = new TypeChecker();
+        types.TypeChecker tc = new types.TypeChecker();
 
         if (!tc.check(ast)) {
             System.out.println("Error type-checking file.");
