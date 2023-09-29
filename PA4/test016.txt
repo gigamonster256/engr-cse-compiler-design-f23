@@ -1,0 +1,9 @@
+// Tests assigning a boolean variable with a relation expression containing a chain of equality operators
+// Anthony Pierson 430005891
+main
+
+bool p, o ,v;
+
+{
+    p = (1 == 2) != (3 == 4) != (5 == 6) != (7 != 8);
+}.

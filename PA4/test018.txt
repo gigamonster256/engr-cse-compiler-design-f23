@@ -1,0 +1,9 @@
+// Caleb Austin 830006168
+// Tests whether variable redinitions are detected when they occur in the same line. 
+
+main
+int a, b, a;
+{
+	a = 4;
+	call printInt(a);
+}.

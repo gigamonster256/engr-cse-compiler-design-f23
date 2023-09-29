@@ -11,4 +11,4 @@ function printInt(int i) : int
 
 {
   call printInt(2);
-};
+}.
