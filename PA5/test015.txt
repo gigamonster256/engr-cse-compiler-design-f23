@@ -1,5 +1,6 @@
 // Ahmet Coskuner 126009366
 // Function with var declaration inside
+// Void function in expression, non-void in statement
 main
 
 int x, y;
@@ -22,7 +23,8 @@ function max (int a, int b) : int {
 {
     x = 5;
     y = 10;
-    z = call max(x, y) == 5;
+    z = call println();
+    call max(x, y);
     if (not z) then
         call printBool(z);
     fi;
