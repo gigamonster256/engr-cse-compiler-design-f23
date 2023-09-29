@@ -7,34 +7,24 @@ Computation[main:()->void]
       ArrayIndex
         ArrayIndex
           b1:bool[2][3]
-          IntegerLiteral[1]
-        IntegerLiteral[0]
       BoolLiteral[false]
     Assignment
       ArrayIndex
         ArrayIndex
           b1:bool[2][3]
-          IntegerLiteral[2]
-        IntegerLiteral[0]
       LogicalNot
         ArrayIndex
           ArrayIndex
             b1:bool[2][3]
-            IntegerLiteral[1]
-          IntegerLiteral[0]
     FunctionCall[printBool:(bool)->void]
       ArgumentList
         ArrayIndex
           ArrayIndex
             b1:bool[2][3]
-            IntegerLiteral[1]
-          IntegerLiteral[0]
     FunctionCall[printBool:(bool)->void]
       ArgumentList
         ArrayIndex
           ArrayIndex
             b1:bool[2][3]
-            IntegerLiteral[2]
-          IntegerLiteral[0]
     FunctionCall[println:()->void]
       ArgumentList

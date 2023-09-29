@@ -1,0 +1,38 @@
+// Mark Golla
+// 828003171
+
+main
+
+int[10] a,b;
+int c;
+int [10] d;
+
+function initialize() : void
+{
+    int i;
+    i = 0;
+    while (i < 10)
+    {
+        a[i] = i; // a and b pulled from the global scope
+        b[i] = i + 1;
+        i = increment(i); // calling function declared later
+    }
+
+}
+
+function increment(int a) : int
+{
+    return a + 1; // a can shadow the global a
+}
+
+{
+    call initialize();
+
+    c = 2;
+
+    while (c < 10)
+    {
+        d[c] = a[c] + b[c];
+        c = c + 1;
+    }
+}
