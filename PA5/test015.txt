@@ -1,31 +1,32 @@
-// Ahmet Coskuner 126009366
-// Function with var declaration inside
-// Void function in expression, non-void in statement
+// Mark Golla
+// 828003171
+// array accessing
+
 main
 
+int[10] a;
 int x, y;
-bool z;
 
-function max (int a, int b) : int {
-    int ret;
-    if (a >= b) then
-        call printInt(a);
-        ret = a;
-    else
-        if (a < b) then
-            call printInt(b);
-            ret = b;
-        fi;
-    fi;
-    return ret;
-};
+function foo(int x, int y) : bool
+{
+    return x < y;
+}
+
+function bar(int x, int y) : int
+{
+    return x + y;
+}
 
 {
-    x = 5;
+    x = 0;
     y = 10;
-    z = call println();
-    call max(x, y);
-    if (not z) then
-        call printBool(z);
-    fi;
-}.
+
+    printInt( a[-5] ); // error: indexing with negative int constant
+    printInt( a[bar(x,y)] ); // ok
+    printInt( a[foo(x,y)] ); // error: indexing with bool
+    printInt( a[i + foo(x,y)] ); // error: int + bool
+    printInt( a[x * y % a[x]] ); // ok
+    printInt( a[foo(x,y) + bar(x,y)] ); // error: int + bool
+    
+
+}
