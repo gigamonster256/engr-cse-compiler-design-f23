@@ -1,52 +1,29 @@
-// Chris Baldwin
-// 525003366
-// 605 Only :: tests sub-array access for array copy functions
-
-// The main problem is if only two indexOf exist, they should be left to right.
-// If the index is deepest first, special consideration needs to be taken.
-
+// Ahmet Coskuner 126009366
+// Function with var declaration inside
 main
-int[5][6][7] x, y;
 
-function arrayCopy(int[] src, int[] dest, int length) : void {
-    int i;
+int x, y;
+bool z;
 
-    i = 0;
-    while (i < length) do
-        dest[i] = src[i];
-    od;
+function max (int a, int b) : int {
+    int ret;
+    if (a >= b) then
+        call printInt(a);
+        ret = a;
+    else
+        if (a < b) then
+            call printInt(b);
+            ret = b;
+        fi;
+    fi;
+    return ret;
 };
 
-function arrayInit(int[] dest, int length, int init) : void {
-    int i;
-
-    i = 0;
-    while (i < length) do
-        dest[i] = init;
-    od;
-};
-
-function itod(int[] dest, int length) : void {
-    int i;
-
-    i = 0;
-    while (i < length) do
-        dest[i] = i;
-    od;
-};
-
-// int[5][6][7] x, y;
 {
-    int i, j;
-
-    i = 0;
-    j = 0;
-
-    while (i < 5) do
-        while (j < 6) do
-            call arrayInit(x[i][j], 7, i*6+j);
-            call itod(y[i][j], 7);
-        od;
-    od;
-    call arrayCopy(x[0][1], y[1][2], 7);
+    x = 5;
+    y = 10;
+    z = call max(x, y) == 5;
+    if (not z) then
+        printBool(z);
+    fi;
 }.
