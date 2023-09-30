@@ -16,13 +16,12 @@ function initialize() : void
         b[i] = i + 1;
         i = call increment(i); // calling function declared later
     od;
-
-}
+};
 
 function increment(int a) : int
 {
     return a + 1; // a can shadow the global a
-}
+};
 
 {
     call initialize();
@@ -33,4 +32,4 @@ function increment(int a) : int
         d[c] = a[c] + b[c];
         c = c + 1;
     od;
-}
+}.
