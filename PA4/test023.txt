@@ -11,12 +11,11 @@ function initialize() : void
 {
     int i;
     i = 0;
-    while (i < 10)
-    {
+    while (i < 10) do
         a[i] = i; // a and b pulled from the global scope
         b[i] = i + 1;
         i = increment(i); // calling function declared later
-    }
+    od;
 
 }
 
