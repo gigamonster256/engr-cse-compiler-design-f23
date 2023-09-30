@@ -1,0 +1,21 @@
+// Charlotte Harrington
+// 330004230 - 434
+// tests return types in branching - should error if one branch returns wrong type, even if other is correct
+
+main
+int x,y;
+bool b;
+function coolFunc(int a) : int{
+    if ( a > x ) then
+        return a;
+    else
+        return ( a > x );
+    fi;
+};
+
+{
+    b = true;
+    x = 5;
+    y = 10;
+    call coolFunc(x);
+}.
