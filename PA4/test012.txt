@@ -8,7 +8,7 @@ int f;
 // Implement recursive function
 function fibonacci(int series_num) : int
 {
-    if (series_num == 0 or series_num == 1) then
+    if ((series_num == 0) or (series_num == 1)) then
         return 1;
     fi;
     return call fibonacci(series_num - 1) - call fibonacci(series_num - 2);
@@ -17,5 +17,5 @@ function fibonacci(int series_num) : int
 // Call a function, and use the result for println()
 {
     f = call fibonacci(12);
-    call println(f);
+    call printInt(f);
 }.
