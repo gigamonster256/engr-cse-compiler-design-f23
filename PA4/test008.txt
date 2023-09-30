@@ -4,6 +4,9 @@
 // test function overloading
 
 main
+
+int c;
+
 function j(int i) : int 
 {
 	return i;
@@ -20,7 +23,7 @@ function j(bool i) : int
 };
 
 {
-	call j(1);
-	call j(1, 2);
-	call j(true);
+	c = call j(1);
+	c = call j(1, 2);
+	c = call j(true);
 }.
