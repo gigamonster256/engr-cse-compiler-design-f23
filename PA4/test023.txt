@@ -29,9 +29,8 @@ function increment(int a) : int
 
     c = 2;
 
-    while (c < 10)
-    {
+    while (c < 10) do
         d[c] = a[c] + b[c];
         c = c + 1;
-    }
+    od;
 }
