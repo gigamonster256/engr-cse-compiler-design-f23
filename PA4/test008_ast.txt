@@ -1,5 +1,7 @@
 Computation[main:()->void]
   DeclarationList
+    VariableDeclaration[c:int]
+  DeclarationList
     FunctionDeclaration[j:(int)->int]
       FunctionBody
         StatementSequence
@@ -18,13 +20,19 @@ Computation[main:()->void]
           ReturnStatement
             IntegerLiteral[1]
   StatementSequence
-    FunctionCall[j:(int)->int]
-      ArgumentList
-        IntegerLiteral[1]
-    FunctionCall[j:(int,int)->int]
-      ArgumentList
-        IntegerLiteral[1]
-        IntegerLiteral[2]
-    FunctionCall[j:(bool)->int]
-      ArgumentList
-        BoolLiteral[true]
+    Assignment
+      c:int
+      FunctionCall[j:(int)->int]
+        ArgumentList
+          IntegerLiteral[1]
+    Assignment
+      c:int
+      FunctionCall[j:(int,int)->int]
+        ArgumentList
+          IntegerLiteral[1]
+          IntegerLiteral[2]
+    Assignment
+      c:int
+      FunctionCall[j:(bool)->int]
+        ArgumentList
+          BoolLiteral[true]
