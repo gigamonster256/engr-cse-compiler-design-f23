@@ -10,23 +10,24 @@ int x, y;
 function foo(int x, int y) : bool
 {
     return x < y;
-}
+};
 
 function bar(int x, int y) : int
 {
     return x + y;
-}
+};
 
 {
     x = 0;
     y = 10;
 
-    printInt( a[-5] ); // error: indexing with negative int constant
-    printInt( a[bar(x,y)] ); // ok
-    printInt( a[foo(x,y)] ); // error: indexing with bool
-    printInt( a[i + foo(x,y)] ); // error: int + bool
-    printInt( a[x * y % a[x]] ); // ok
-    printInt( a[foo(x,y) + bar(x,y)] ); // error: int + bool
+    call printInt( a[-5] ); // error: indexing with negative int constant
+    call printInt( a[-5] ); // error: indexing with negative int constant
+    call printInt( a[call bar(x,y)] ); // ok
+    call printInt( a[call foo(x,y)] ); // error: indexing with bool
+    call printInt( a[i + call foo(x,y)] ); // error: int + bool
+    call printInt( a[x * y % a[x]] ); // ok
+    call printInt( a[call foo(x,y) + call bar(x,y)] ); // error: int + bool
     
 
-}
+}.
