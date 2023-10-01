@@ -28,12 +28,6 @@ function arrayInit(int[] dest, int length, int init) : void {
     od;
 };
 
-function arrayInit(int length, int init) : int[] {
-    int[5] ret;
-
-    return call arrayInit(ret, 5, init);
-}
-
 function itod(int[] dest, int length) : void {
     int i;
 
@@ -44,12 +38,6 @@ function itod(int[] dest, int length) : void {
 };
 
 
-function itod(int length) : int[] {
-    int[5] ret;
-
-    return call itod(ret, length);
-};
-
 // Calls future function and tests scope leak
 function printArray(int[][] arr, int cols, int rows) : void {
     int i;
@@ -58,7 +46,7 @@ function printArray(int[][] arr, int cols, int rows) : void {
     while ((i < length) and (length > 0)) do
         call printArray(arr[i]);
     od;
-}
+};
 
 function printArray(int[] arr, int length) : void {
     int i;
@@ -70,10 +58,10 @@ function printArray(int[] arr, int length) : void {
 };
 
 {
-    call arrayCopy(call itod(5), x, 5);
+    call itod(x, 5);
     call printInt(i); // Should be 0; No out of scope leak
 
-    call arrayCopy(call arrayInit(5, -1), y, 5);
+    call arrayInit(y, 5 -1);
     call printInt(i); // Should be 0; No out of scope leak
 
     call arrayCopy(all[0], x, 5);
