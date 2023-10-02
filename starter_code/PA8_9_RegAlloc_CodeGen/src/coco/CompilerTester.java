@@ -107,7 +107,7 @@ public class CompilerTester {
             }
         }
 
-        types.TypeChecker tc = new TypeChecker();
+        types.TypeChecker tc = new types.TypeChecker();
 
         if (!tc.check(ast)) {
             System.out.println("Error type-checking file.");
