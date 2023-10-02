@@ -12,6 +12,6 @@ int a;
   call readBool();
 
   // bad
-  a = printInt(a);
+  a = call printInt(a);
 
 }.
