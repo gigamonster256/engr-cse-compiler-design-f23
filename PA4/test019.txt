@@ -18,7 +18,7 @@ function aFunction(int i) : bool
 
 {
 	x = 0;
-	while (i <= 40) do
+	while (x <= 40) do
 		a = call aFunction(x);
 		if (a) then
 			x++;
