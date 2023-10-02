@@ -1,0 +1,14 @@
+main
+
+bool b;
+int i;
+{   
+    b++;
+    b--;
+    call printBool(b);
+    i++
+    i--;
+    call printInt(i);
+}.
+
+// there must be 4 errors reported on lines 6 and 7
