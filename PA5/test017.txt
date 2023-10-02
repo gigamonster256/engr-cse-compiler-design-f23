@@ -11,16 +11,16 @@ function foo(int a, bool b) : void {
   else
     return a - 1;
   fi;
-}
+};
 
 function foo(bool a, int b) : void {
-  b += 1
+  b += 1;
   if( a ) then
     return b;
   else
     return b + 1;
   fi;
-}
+};
 
 {
   call foo(1, false);
