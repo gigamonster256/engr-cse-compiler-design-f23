@@ -25,7 +25,7 @@ function bar(int x, int y) : int
     call printInt( a[-5] ); // error: indexing with negative int constant
     call printInt( a[call bar(x,y)] ); // ok
     call printInt( a[call foo(x,y)] ); // error: indexing with bool
-    call printInt( a[i + call foo(x,y)] ); // error: int + bool
+    call printInt( a[x + call foo(x,y)] ); // error: int + bool
     call printInt( a[x * y % a[x]] ); // ok
     call printInt( a[call foo(x,y) + call bar(x,y)] ); // error: int + bool
     
