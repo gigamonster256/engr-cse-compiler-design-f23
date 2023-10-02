@@ -4,16 +4,16 @@
 
 main
 
-function foo(int a, bool b) : void {
+function foo(int a, bool b) : int {
   a += 1;
-  if (b) then
+  if ( b ) then
     return a;
   else
     return a - 1;
   fi;
 };
 
-function foo(bool a, int b) : void {
+function foo(bool a, int b) : int {
   b += 1;
   if( a ) then
     return b;
