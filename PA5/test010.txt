@@ -4,7 +4,7 @@ main
 int x, y;
 bool b1, b2;
 
-main {
+{
   //Assignment
   b1 = true;
   b2 = false;
