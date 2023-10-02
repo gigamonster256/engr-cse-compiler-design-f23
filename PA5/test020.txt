@@ -6,7 +6,7 @@ int i;
     b++;
     b--;
     call printBool(b);
-    i++
+    i++;
     i--;
     call printInt(i);
 }.
