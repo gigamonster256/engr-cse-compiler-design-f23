@@ -1,0 +1,29 @@
+// SymbolError
+
+main
+
+int x;
+bool a;
+
+function aFunction(int i) : bool
+{
+	if (i > 20) then
+		return false;
+	fi;
+	return true;
+};
+
+
+
+{
+	x = 0;
+	while (i <= 40) do // SymbolError
+		a = call aFunction(i); // SymbolError; it's up to you to throw aFunction() is an error - for this PA, it's not needed b/c we do not use type info
+		if (a) then
+			x++;
+		else 
+			x += 5;
+		fi;
+	od;
+}.
+		
