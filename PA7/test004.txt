@@ -3,18 +3,18 @@
 main
 int a, b, c, d, e;
 {
-	a = 1;
+  a = 1;
   b = 2;
   c = 3;
-	if (c > b) then
-		d = a;
+  if (c > b) then
+    d = a;
   else 
     if (a > 1) then
       d = b;
     else 
       d = c;
     fi;
-	fi;
-	e = d + a;
+  fi;
+  e = d + a;
 }
 .
