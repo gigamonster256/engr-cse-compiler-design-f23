@@ -2,5 +2,6 @@ test000, cp cf
 test000, max
 test001, cf
 test002, cse
+test004, cf
 test005, dce
 test006, max
