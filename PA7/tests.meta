@@ -5,4 +5,5 @@ test002, cse
 test004, cf
 test005, dce
 test006, max
+test007, cse cp
 test012, cf cp
