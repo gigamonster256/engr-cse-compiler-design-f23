@@ -1,18 +1,13 @@
-// Ahmet Coskuner 126009366
-// Constant folding with identity properties
-// and constant propagation
+// Caleb Norton 628007801
+// unused functions should not generate a CFG
 
 main
-int a,b,c,d,e;
+
+function retInteger (int i) : int {
+	i++;
+	return i;
+};
+
 {
-    a = 5;
-    b = a * 1; // b = 5
-    c = a * 0; // c = 0
-    d = a + 0; // d = 5
-    e = a ^ 1; // e = 5
-    call printInt(a);
-    call printInt(b);
-    call printInt(c);
-    call printInt(d);
-    call printInt(e);
+  printInt(3);
 }.
