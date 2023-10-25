@@ -9,5 +9,5 @@ function retInteger (int i) : int {
 };
 
 {
-  printInt(3);
+  call printInt(3);
 }.
