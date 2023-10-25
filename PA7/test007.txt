@@ -16,4 +16,4 @@ int i0, i1, i2;
     call printInt(i0); // 2
     call printInt(i1); // 10
     call printInt(i2); // 4
-}
+}.
