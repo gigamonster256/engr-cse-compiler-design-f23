@@ -8,3 +8,4 @@ test006, max
 test007, cse cp
 test010, dce
 test012, cf cp
+test013, cf cp
