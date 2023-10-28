@@ -1,0 +1,42 @@
+// Gaultier Delbarre
+// 830006271
+//
+// Tests that global constant propagation accurately detects when variables become/unbecome constant
+
+main
+
+int a,b,c,d;
+bool x;
+
+{
+  a = 7;
+  b = 30;
+  x = true;
+
+  c = a * b + 23;
+
+  call printInt(c);
+
+  if( x ) then
+    c += 3;
+  else
+    c -= 3;
+  fi;
+
+  c = c + a + b;
+
+  repeat
+
+    if( x ) then
+      a = b + 1;
+    else
+      b = a - 1;
+    fi;
+    x = (1 - a) > 0;
+  until( b > a );
+
+  c = b + a;
+
+  call printInt(c);
+  call println();
+}.
