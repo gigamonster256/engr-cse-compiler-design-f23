@@ -1,0 +1,16 @@
+// Charlotte Harrington 330004230
+// empty function block generation 
+
+main 
+
+int a, b;
+
+function le() : void {
+
+};
+
+{
+	a = 1;
+	b = a + 1;
+	call printInt(b);
+}.

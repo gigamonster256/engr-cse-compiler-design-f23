@@ -2,7 +2,7 @@
 // Test for max (cp, cpp, cse, cf)
 main
 
-int a, b, c, d, e, x, y;
+int a, b, c, d, e, x, y, z;
 
 // max 
 {
