@@ -47,5 +47,5 @@ function unreachableIf () : void
 
 {
     call unreachableIf();
-    call early_return();
+    call printInt(call early_return());
 }.
