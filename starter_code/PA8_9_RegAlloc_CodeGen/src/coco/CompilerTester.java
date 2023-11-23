@@ -80,8 +80,8 @@ public class CompilerTester {
         Compiler c = new Compiler(s, numRegs);
         ast.AST ast = c.genAST();
 
-        String ast_text = ast.printPreOrder();
         if (cmd.hasOption("astOut")) {
+            String ast_text = ast.printPreOrder();
             System.out.println(ast_text);
         }
 
