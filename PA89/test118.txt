@@ -10,9 +10,9 @@ function use_global () : void
 	j = 2;
 	a[j] = 19;
 	if (a[ i ] < a [ j ]) then
-		a[i]++; //= a[j] + 1
+		a[i] = a[i] + 1
 	else 
-		a[j]--; //= a[i] - 1 // dead code
+		a[j] = a[j] - 1 // dead code
 	fi;
 	k = a[ j ];
 	call printInt(k); // 19
@@ -48,3 +48,5 @@ function use_local() : void
     call printInt(i); //must not see 1000 -> 1
     call printInt(j); //must not see 5000 -> 2 
 }.
+
+// note: solution bug a[i]++ and a[j]--
