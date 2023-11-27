@@ -8,6 +8,7 @@ test002,
 test003,
 test004, 
 test004, max, 5
+test009, dce
 test110, max, 8
 test111, cf cp dce, 4
 test112, cp cf dce max, 6
@@ -20,4 +21,3 @@ test116, max, 4
 test118, cp cpp cf dce max, 12
 test118, max, 8
 test119, cf cp cpp max, 2
-test120, dce
