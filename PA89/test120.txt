@@ -1,0 +1,26 @@
+//Samuel Torres 130006243
+//DCE Early Return
+
+main
+int x;
+
+
+{
+    x = 0;
+    if(true) then
+       return x;
+
+        //All gone
+       while(true) do
+            x = 3;
+       od;
+
+       call printInt(x);
+
+
+    else
+       x = 2;
+    fi;
+
+    call printInt(x);
+}.
