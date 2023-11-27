@@ -8,7 +8,7 @@ int x,y,z;
 
 {
     x = 0;
-    if(x > y) then
+    if(x == y) then
        return x;
 
         //All gone
