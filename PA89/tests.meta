@@ -20,3 +20,4 @@ test116, max, 4
 test118, cp cpp cf dce max, 12
 test118, max, 8
 test119, cf cp cpp max, 2
+test120, dce
