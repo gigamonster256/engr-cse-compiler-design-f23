@@ -1,13 +1,14 @@
 //Samuel Torres 130006243
 //DCE Early Return
+//Also tests for unallocated variables
 
 main
-int x;
+int x,y,z;
 
 
 {
     x = 0;
-    if(true) then
+    if(x > y) then
        return x;
 
         //All gone
@@ -23,4 +24,5 @@ int x;
     fi;
 
     call printInt(x);
+    call printInt(z);
 }.
