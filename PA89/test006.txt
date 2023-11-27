@@ -32,11 +32,11 @@ function fizz () : void
 {
     int z;
     z = 5;
-    repeat {
+    repeat
         call printInt(z);
         call println();
         z--;
-    } until (z == 0);
+    until (z == 0);
 };
 
 {
