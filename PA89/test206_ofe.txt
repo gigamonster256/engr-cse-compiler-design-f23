@@ -9,7 +9,7 @@ function bar (int n) : int
     return n;
 };
 
-function foo (int x) : int
+function foo_func (int x) : int
 {
     int par, q;
 
