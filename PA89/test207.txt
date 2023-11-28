@@ -5,19 +5,19 @@ function without_loop():void{
 
     int a,b,c,d,e,x,y;
 
-    let b = c + d;
-    let e = c + d;
+    b = c + d;
+    e = c + d;
     if(b == e) then
-        let x = c + d;
-        let a = b + c;
+        x = c + d;
+        a = b + c;
     else
-        let y = a + b;
+        y = a + b;
     fi;
-    let x = a + b;
-    let y = c + d;
+    x = a + b;
+    y = c + d;
 
-    let x = b * c / x;
-    let y = b * c / e;
+    x = b * c / x;
+    y = b * c / e;
     call printInt(x);
     call printInt(y);
 };
@@ -27,16 +27,16 @@ function with_loop():void{
     int w,x,y,z;
 
     while(true) do
-        let x = y + z;
-        let y = y + z;
+        x = y + z;
+        y = y + z;
         if(x == y) then
-            let w = x + y;
-            let z = z + y;
+            w = x + y;
+            z = z + y;
         else
-            let y = w + x;
+            y = w + x;
         fi;
-        let w = w + x;
-        let z = x + y;
+        w = w + x;
+        z = x + y;
     od;
     call printInt(w);
 };
