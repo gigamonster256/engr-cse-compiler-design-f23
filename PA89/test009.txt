@@ -1,14 +1,12 @@
-//Samuel Torres 130006243
 //DCE Early Return
-//Also tests for unallocated variables
 
 main
-int x,y,z;
+int x;
 
+function func() : int {
 
-{
     x = 0;
-    if(x == y) then
+    if(true) then
        return x;
 
         //All gone
@@ -23,6 +21,12 @@ int x,y,z;
        x = 2;
     fi;
 
-    call printInt(x);
-    call printInt(z);
+    return x;
+
+
+};
+
+
+{
+    call func();
 }.
