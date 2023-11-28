@@ -21,3 +21,22 @@ test116, max, 4
 test118, cp cpp cf dce max, 12
 test118, max, 8
 test119, cf cp cpp max, 2
+test201, cse max, 8
+test202, cpp max, 4
+test203, cp cf dce max, 10
+test204_ssa, cp cf dce max, 10
+test205_arr, cse max
+test205_arr, cf cse max
+test207, cse dce max
+test209_cf, cf
+test209_cf, cf max
+test209_cf, max
+test210_max, max
+test210_max, max, 2
+test211_ofe, dce
+test213_dce, dce
+test214_cf, cf
+test214_cf, cp cf max
+test215_max, max
+test216, max
+test227_max, max
