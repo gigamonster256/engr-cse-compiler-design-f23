@@ -24,19 +24,19 @@ test119, cf cp cpp max, 2
 test201, cse max, 8
 test202, cpp max, 4
 test203, cp cf dce max, 10
-test204_ssa, cp cf dce max, 10
-test205_arr, cse max
-test205_arr, cf cse max
+test204-ssa, cp cf dce max, 10
+test205-arr, cse max
+test205-arr, cf cse max
 test207, cse dce max
-test209_cf, cf
-test209_cf, cf max
-test209_cf, max
-test210_max, max
-test210_max, max, 2
-test211_ofe, dce
-test213_dce, dce
-test214_cf, cf
-test214_cf, cp cf max
-test215_max, max
+test209-cf, cf
+test209-cf, cf max
+test209-cf, max
+test210-max, max
+test210-max, max, 2
+test211-ofe, dce
+test213-dce, dce
+test214-cf, cf
+test214-cf, cp cf max
+test215-max, max
 test216, max
-test227_max, max
+test227-max, max
