@@ -6,6 +6,15 @@ int s, t, u, v, x, y, z;
 int[10][10] arr1;
 bool a, b;
 
+function output(): void {
+	call printInt(u);
+	call printInt(y);
+	call printBool(b);
+	call println();
+	z = 0;
+	s = 0;
+	call printInt(arr1[z][s]); 
+};
 
 {	
 	t = 23;
@@ -32,5 +41,5 @@ bool a, b;
  		od;
  	fi;
 	
-	
+	call output();
 }.
