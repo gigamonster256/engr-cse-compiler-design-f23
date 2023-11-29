@@ -10,10 +10,10 @@ function output(): void {
 	call printInt(u);
 	call printInt(y);
 	call printBool(b);
-	call println();
 	z = 0;
 	s = 0;
-	call printInt(arr1[z][s]); 
+	call printInt(arr1[z][s]);
+	call printInt(arr1[y][5]); 
 };
 
 {	
