@@ -26,7 +26,7 @@ function output(): void {
  	v = t + x - y;
  	z = 0;
  	s = 0;
- 	arr1[y+v*10][5] = 12;
+ 	arr1[y][5] = 12;
  	if (u > v) then
  		while (z < 10) do
  			while (s < 10) do
