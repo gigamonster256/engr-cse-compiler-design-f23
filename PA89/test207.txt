@@ -7,15 +7,15 @@ function without_loop():void{
 
     b = c + d;
     e = c + d;
-    if(b == e) then
+    if (b == e) then
         x = c + d;
         a = b + c;
     else
         y = a + b;
     fi;
-    x = a + b;
+    x = a + b + 1;
     y = c + d;
-
+    e = x;
     x = b * c / x;
     y = b * c / e;
     call printInt(x);
@@ -26,17 +26,19 @@ function with_loop():void{
 
     int w,x,y,z;
 
-    while(true) do
+    while(w < 5) do
         x = y + z;
         y = y + z;
-        if(x == y) then
+        if (x == y) then
             w = x + y;
             z = z + y;
         else
             y = w + x;
         fi;
         w = w + x;
+        w = w + 1;
         z = x + y;
+        z = z + 1;
     od;
     call printInt(w);
 };
