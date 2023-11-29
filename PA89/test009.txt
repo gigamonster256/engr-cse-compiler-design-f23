@@ -4,29 +4,22 @@ main
 int x;
 
 function func() : int {
-
     x = 0;
-    if(true) then
+    if (x = y) then
        return x;
 
         //All gone
-       while(true) do
+       while (true==false) do
             x = 3;
        od;
-
        call printInt(x);
-
-
     else
        x = 2;
     fi;
-
     return x;
-
-
 };
 
 
 {
-    call func();
+    call printInt(func());
 }.
