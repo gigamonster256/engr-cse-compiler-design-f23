@@ -20,7 +20,6 @@ function arrayAccept(int[] j) : void {
   k = 0;
   while(k <12) do 
     call printInt(j[k] * y[k]);
-    call println();
     call printInt(x[k/3][k%3]);
     call println();
     k++;
