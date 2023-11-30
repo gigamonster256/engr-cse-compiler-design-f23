@@ -15,7 +15,8 @@ test112, cp cf dce max, 6
 test113, max, 8
 test114, dce, 2
 test114, max, 4
-test114, cf max, 4
+test114, cf cp, 3 
+test114, cf cp max, 4
 test115, cp cpp cf dce max, 8
 test116, max, 4
 test118, cp cpp cf dce max, 12
@@ -29,14 +30,17 @@ test205-arr, cse max
 test205-arr, cf cse max
 test207, cse dce max
 test209-cf, cf
-test209-cf, cf max
+test209-cf, cf cp
+test209-cf, cf cp max
 test209-cf, max
 test210-max, max
 test210-max, max, 2
 test211-ofe, dce
 test213-dce, dce
 test214-cf, cf
+test214-cf, cf cp
 test214-cf, cp cf max
+test214-cf, cf cp cpp max
 test215-max,
 test215-max, max
 test216, max
