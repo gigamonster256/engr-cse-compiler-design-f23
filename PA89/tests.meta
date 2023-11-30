@@ -6,7 +6,7 @@ test001, cf cp max
 test001, cf cp max, 3
 test002,
 test003,
-test004, 
+test004, cf dce
 test004, max, 5
 test009, dce
 test110, max, 8
