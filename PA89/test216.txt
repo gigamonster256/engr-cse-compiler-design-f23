@@ -36,7 +36,7 @@ function increment(int a) : int {
 {
     myNum = call readInt() * 1; // one phi instruction should be generated for myNum inside repeat block
     call printInt((myNum + 0) * 1);
-    call printFloat(1.0 * 6.8);
+    call printInt(2^5);
     if (myNum / 1 > 5) then
         call printInt(call increment(1 * myNum / 1) * 1 + (0 - myNum));
     fi;
