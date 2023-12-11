@@ -28,6 +28,7 @@ test203, cp cf dce max, 10
 test204-ssa, cp cf dce max, 10
 test205-arr, cse max
 test205-arr, cf cse max
+test206-ofe, ofe
 test207, cse dce max
 test209-cf, cf
 test209-cf, cf cp
@@ -36,6 +37,7 @@ test209-cf, max
 test210-max, max
 test210-max, max, 2
 test211-ofe, dce
+test212-ssa-ofe, ofe
 test213-dce, dce
 test214-cf, cf
 test214-cf, cf cp
@@ -43,4 +45,5 @@ test214-cf, cp cf max
 test214-cf, cf cp cpp max
 test215-max,
 test215-max, max
+test216, ofe
 test216, max
